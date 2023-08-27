@@ -2,7 +2,7 @@
 
 ## Memory-Efficient Doubly
 
-    - Instead of using **prev** and **next** pointers in a node, we can use one pointer.
+    - Instead of using __prev__ and **next** pointers in a node, we can use one pointer.
     - **ptrdiff** pointer in the node will store the **xor** of previous and next node's address
     - A ⓧ null = A
     - A ⓧ A    = null
